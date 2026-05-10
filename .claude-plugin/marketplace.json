@@ -1,0 +1,17 @@
+{
+  "name": "eugene-plugins",
+  "owner": {
+    "name": "Eugene Ilyushin"
+  },
+  "plugins": [
+    {
+      "name": "independent-reviewer",
+      "source": "./independent-reviewer",
+      "description": "Carry out a comprehensive and independent review of all changes science last commit",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eugene Ilyushin"
+      }
+    }
+  ]
+}
