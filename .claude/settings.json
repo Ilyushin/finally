@@ -1,4 +1,16 @@
 {
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "opencode run \"Review changes since last commit and write results to a file named ./planning/hook_review.md\""
+          }
+        ]
+      }
+    ]
+  },
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
